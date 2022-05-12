@@ -1,11 +1,5 @@
 [
     {
-        "name": "prova",
-        "private": true,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
         "name": "cerca",
         "private": false,
         "run_as_system": true,
@@ -25,6 +19,12 @@
     {
         "name": "inserisci",
         "private": false,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "prova",
+        "private": true,
+        "run_as_system": true,
         "disable_arg_logs": true
     }
 ]
