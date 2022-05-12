@@ -1,5 +1,6 @@
 exports = function(payload, response) {
 const {n}=payload.query;
+const http = context.services.get();
 return http.get({ url:"https://api.openweathermap.org/data/2.5/weather?units=metric&appid=d0fda39104b3c7c45fe031a5392964c1&q="+n})
   .then(
     response => {
@@ -7,7 +8,7 @@ return http.get({ url:"https://api.openweathermap.org/data/2.5/weather?units=met
       return ejson_body.main.temp.toString();
     }
   ).then( t => {
-    
+    return t;
   })
   .catch( error => { return "Errore: "+error; } );
 }
