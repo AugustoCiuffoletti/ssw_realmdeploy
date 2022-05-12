@@ -22,14 +22,14 @@
         "disable_arg_logs": true
     },
     {
+        "name": "acquisisci",
+        "private": false,
+        "run_as_system": true
+    },
+    {
         "name": "cerca",
         "private": false,
         "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
-        "name": "acquisisci",
-        "private": false,
         "disable_arg_logs": true
     }
 ]
