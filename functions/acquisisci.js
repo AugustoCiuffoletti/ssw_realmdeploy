@@ -9,7 +9,7 @@ return http.get({ url:"https://api.openweathermap.org/data/2.5/weather?units=met
     }
   ).then( t => {
     var collection = context.services.get("mongodb-atlas").db("Meteo").collection("Citta");
-    collection.updateOne( {nome: n}, {"$set": {temperatura: t} } );
+    collection.updateOne( {nome: n}, {"$set": {temperatura: t} }, { "upsert": true } );
     return t;
   })
   .catch( error => { return "Errore: "+error; } );
