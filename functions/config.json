@@ -1,5 +1,11 @@
 [
     {
+        "name": "cerca",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
         "name": "cerca0",
         "private": true,
         "run_as_system": true
@@ -11,9 +17,8 @@
         "disable_arg_logs": true
     },
     {
-        "name": "cerca",
+        "name": "elenco",
         "private": false,
-        "run_as_system": true,
         "disable_arg_logs": true
     }
 ]
