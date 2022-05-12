@@ -9,7 +9,7 @@ var doc={"nome": n, temperatura: 0};
 collection.insertOne(doc);
 return doc;
 } else {
-return ("Gia’ presente");
+return ("Gia' presente");
 } } );
 return t;
 };
