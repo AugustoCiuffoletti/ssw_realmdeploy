@@ -13,8 +13,7 @@
     {
         "name": "inserisci",
         "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
+        "run_as_system": true
     },
     {
         "name": "prova",
@@ -26,6 +25,11 @@
         "name": "cerca",
         "private": false,
         "run_as_system": true,
+        "disable_arg_logs": true
+    },
+    {
+        "name": "acquisisci",
+        "private": false,
         "disable_arg_logs": true
     }
 ]
