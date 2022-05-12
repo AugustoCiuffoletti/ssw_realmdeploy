@@ -1,11 +1,5 @@
 [
     {
-        "name": "cerca",
-        "private": false,
-        "run_as_system": true,
-        "disable_arg_logs": true
-    },
-    {
         "name": "cerca0",
         "private": true,
         "run_as_system": true
@@ -31,5 +25,11 @@
         "name": "acquisisci",
         "private": false,
         "run_as_system": true
+    },
+    {
+        "name": "cerca",
+        "private": false,
+        "run_as_system": true,
+        "disable_arg_logs": true
     }
 ]
