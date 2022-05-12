@@ -1,6 +1,6 @@
 [
     {
-        "route": "/cerca",
+        "route": "/cerca0",
         "http_method": "GET",
         "function_name": "cerca0",
         "validation_method": "NO_VALIDATION",
