@@ -1,0 +1,7 @@
+{
+    "app_id": "temperature-lwkwk",
+    "config_version": 20210101,
+    "name": "temperature",
+    "location": "IE",
+    "deployment_model": "GLOBAL"
+}
