@@ -1,5 +1,15 @@
 [
     {
+        "route": "/elenco",
+        "http_method": "GET",
+        "function_name": "elenco",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
+    },
+    {
         "route": "/cerca0",
         "http_method": "GET",
         "function_name": "cerca0",
@@ -23,16 +33,6 @@
         "route": "/cerca",
         "http_method": "GET",
         "function_name": "cerca",
-        "validation_method": "NO_VALIDATION",
-        "respond_result": true,
-        "fetch_custom_user_data": false,
-        "create_user_on_auth": false,
-        "disabled": false
-    },
-    {
-        "route": "/elenco",
-        "http_method": "GET",
-        "function_name": "elenco",
         "validation_method": "NO_VALIDATION",
         "respond_result": true,
         "fetch_custom_user_data": false,
