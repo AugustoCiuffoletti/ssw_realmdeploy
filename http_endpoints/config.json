@@ -58,5 +58,15 @@
         "fetch_custom_user_data": false,
         "create_user_on_auth": false,
         "disabled": false
+    },
+    {
+        "route": "/prova2",
+        "http_method": "GET",
+        "function_name": "prova2",
+        "validation_method": "NO_VALIDATION",
+        "respond_result": true,
+        "fetch_custom_user_data": false,
+        "create_user_on_auth": false,
+        "disabled": false
     }
 ]
